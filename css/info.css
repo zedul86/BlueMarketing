@@ -1,0 +1,96 @@
+.info {
+    margin-bottom: 44px;
+}
+
+.info__wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.info__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.left__h {
+    font-family: 'RB', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #686868;
+    text-align: left;
+}
+
+.left__p {
+    padding: 15px;
+    background: white;
+    border-radius: 8px;
+}
+
+.left__text {
+    font-family: 'RR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    width: 795px;
+}
+
+.info__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start ;
+}
+
+.right__h {
+    font-family: 'RB', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #686868;
+    margin-bottom: 22px;
+}
+
+.right__card {
+    background: #FFFFFF;
+    border-radius: 8px;
+    padding: 17px;
+    display: flex;
+    align-items: flex-start;;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.right__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.card__link {
+    font-family: 'RR', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #323232;
+    margin-bottom: 5px;
+}
+
+.card__p {
+    font-family: 'RR',sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
