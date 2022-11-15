@@ -1,0 +1,43 @@
+@media screen and (max-width:1580px) {
+    .nav{
+        position: static;
+        height: auto;
+        overflow: visible;
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px 30px;
+        max-width: 1140px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    .nav__wrap{
+        flex-direction: row;
+        align-items: center;
+    }
+    .nav__menu{
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+    .banner {
+        margin: 30px;
+    }
+    .nav:hover{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1140px) {
+    .nav__wrap{
+        flex-wrap: wrap;
+    }
+    .logo{
+        flex-basis: 33%;
+    }
+    .info__wrap{
+        flex-wrap: wrap;
+    }
+    
+}
+@media screen {
+    
+}
